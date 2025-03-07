@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|f:\\usuario\\desktop\\apicurso\\apipeliculas\\apipeliculas\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|solutionrelative:apipeliculas\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|f:\\usuario\\desktop\\apicurso\\apipeliculas\\apipeliculas\\peliculasmappers\\pelicularmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|solutionrelative:apipeliculas\\peliculasmappers\\pelicularmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|f:\\usuario\\desktop\\apicurso\\apipeliculas\\apipeliculas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|solutionrelative:apipeliculas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Program.cs",
+              "RelativeDocumentMoniker": "apiPeliculas\\Program.cs",
+              "ToolTip": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Program.cs",
+              "RelativeToolTip": "apiPeliculas\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:18:32.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "apiPeliculas\\Controllers\\CategoriasController.cs",
+              "ToolTip": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "apiPeliculas\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwFoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:09:06.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PelicularMapper.cs",
+              "DocumentMoniker": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\PeliculasMappers\\PelicularMapper.cs",
+              "RelativeDocumentMoniker": "apiPeliculas\\PeliculasMappers\\PelicularMapper.cs",
+              "ToolTip": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\PeliculasMappers\\PelicularMapper.cs",
+              "RelativeToolTip": "apiPeliculas\\PeliculasMappers\\PelicularMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:06:15.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
