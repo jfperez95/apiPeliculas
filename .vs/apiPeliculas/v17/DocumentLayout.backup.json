@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|f:\\usuario\\desktop\\apicurso\\apipeliculas\\apipeliculas\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|solutionrelative:apipeliculas\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|f:\\usuario\\desktop\\apicurso\\apipeliculas\\apipeliculas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|solutionrelative:apipeliculas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|f:\\usuario\\desktop\\apicurso\\apipeliculas\\apipeliculas\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D683A50-A783-484D-BEFA-9B7483D3AFE8}|apiPeliculas\\apiPeliculas.csproj|solutionrelative:apipeliculas\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +22,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\appsettings.json",
-              "RelativeDocumentMoniker": "apiPeliculas\\appsettings.json",
-              "ToolTip": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\appsettings.json",
-              "RelativeToolTip": "apiPeliculas\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T21:38:45.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioRepositorio.cs",
-              "DocumentMoniker": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Repositorio\\UsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "apiPeliculas\\Repositorio\\UsuarioRepositorio.cs",
-              "ToolTip": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Repositorio\\UsuarioRepositorio.cs",
-              "RelativeToolTip": "apiPeliculas\\Repositorio\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T21:33:02.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "apiPeliculas\\Controllers\\UsuariosController.cs",
               "ToolTip": "F:\\Usuario\\Desktop\\apicurso\\apiPeliculas\\apiPeliculas\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "apiPeliculas\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAkwGIAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwGMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T20:06:19.221Z",
               "EditorCaption": ""
