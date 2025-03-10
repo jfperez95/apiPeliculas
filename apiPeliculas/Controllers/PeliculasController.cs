@@ -2,11 +2,13 @@
 using apiPeliculas.Models;
 using apiPeliculas.Repositorio.IRepositorio;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace apiPeliculas.Controllers
 {
+    //[Authorize]
     [Route("api/peliculas")]
     [ApiController]
     public class PeliculasController : ControllerBase
@@ -20,6 +22,7 @@ namespace apiPeliculas.Controllers
             _mapper = mapper;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
@@ -37,6 +40,7 @@ namespace apiPeliculas.Controllers
             return Ok(listaPeliculasDto);
         }
 
+        [AllowAnonymous]
         [HttpGet("{peliculaId:int}", Name = "GetPelicula")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -55,6 +59,8 @@ namespace apiPeliculas.Controllers
 
             return Ok(itemPeliculaDto);
         }
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ProducesResponseType(201, Type = typeof(PeliculaDto))]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -91,6 +97,7 @@ namespace apiPeliculas.Controllers
             return CreatedAtRoute("GetPelicula", new { peliculaId = pelicula.Id }, pelicula);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPatch("{peliculaId:int}", Name = "ActualizarPatchPelicula")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -126,6 +133,7 @@ namespace apiPeliculas.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{peliculaId:int}", Name = "ActualizarPutPelicula")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -163,6 +171,7 @@ namespace apiPeliculas.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{peliculaId:int}", Name = "BorrarPelicula")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -189,6 +198,7 @@ namespace apiPeliculas.Controllers
             return NoContent();
         }
 
+        [AllowAnonymous]
         [HttpGet("GetPeliculasEnCategoria/{categoriaId:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -208,6 +218,7 @@ namespace apiPeliculas.Controllers
             return Ok(listaPeliculasDto);
         }
 
+        [AllowAnonymous]
         [HttpGet("Buscar")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

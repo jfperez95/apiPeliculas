@@ -3,11 +3,13 @@ using apiPeliculas.Data.Dtos;
 using apiPeliculas.Models;
 using apiPeliculas.Repositorio.IRepositorio;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace apiPeliculas.Controllers
 {
+    //[Authorize]
     [Route("api/usuarios")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -23,6 +25,7 @@ namespace apiPeliculas.Controllers
             this._respuestaAPI = new();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
@@ -31,21 +34,22 @@ namespace apiPeliculas.Controllers
 
         public IActionResult GetUsuario()
         {
-            var listaCategorias = _usRepo.GetUsuarios();
+            var listaUsuarios = _usRepo.GetUsuarios();
             var listaUsuarioDto = new List<UsuarioDto>();
-            foreach (var lista in listaUsuarioDto)
+            foreach (var lista in listaUsuarios)
             {
                 listaUsuarioDto.Add(_mapper.Map<UsuarioDto>(lista));
             }
             return Ok(listaUsuarioDto);
         }
 
-        [HttpGet("{usuarioId:int}", Name = "GetUsuario")]
+        [Authorize(Roles = "Admin")]
+        [HttpGet("{usuarioId}", Name = "GetUsuario")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public IActionResult GetUsuario(int usuarioId)
+        public IActionResult GetUsuario(string usuarioId)
         {
             var itemUsuario = _usRepo.GetUsuario(usuarioId);
 
@@ -54,11 +58,12 @@ namespace apiPeliculas.Controllers
                 return NotFound();
             }
 
-            var itemUsuarioDto = _mapper.Map<CategoriaDto>(itemUsuario);
+            var itemUsuarioDto = _mapper.Map<UsuarioDto>(itemUsuario);
 
             return Ok(itemUsuarioDto);
         }
 
+        [AllowAnonymous]
         [HttpPost("registro")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -89,6 +94,7 @@ namespace apiPeliculas.Controllers
             return Ok(_respuestaAPI);
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

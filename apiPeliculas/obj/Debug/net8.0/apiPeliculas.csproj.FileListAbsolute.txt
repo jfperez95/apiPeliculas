@@ -174,3 +174,9 @@ F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\obj\Debug\net8.0\apiPelicu
 F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.Practices.ServiceLocation.dll
 F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\XAct.Core.PCL.dll
 F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+F:\Usuario\Desktop\apicurso\apiPeliculas\apiPeliculas\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
